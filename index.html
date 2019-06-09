@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Website Assessment</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+        crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link type="text/css" href="style.css" rel="stylesheet" />
+
+    <!--On-Page Styles -->
+    <style>
+        header {
+            padding-top: 10px;
+        }
+
+        header .nav-link {
+            color: rgb(50, 50, 50);
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        footer .nav-link{
+            color: lightgrey;
+            font-size: 7px;
+            font-weight: lighter;
+        }
+
+        .nav-link:hover {
+            color: rgb(49, 149, 180);
+        }
+
+        .jumbotron {
+            background-color: aqua;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        h2 {
+            color: rgb(49, 149, 180);
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: rgb(80, 80, 80);
+            font-size: 10px;
+            line-height: 1.2;
+        }
+
+        #contact h2 {
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        #contact p {
+            font-weight: 600;
+        }
+
+        .left {
+            border-right: 1px solid rgb(30, 100, 80);
+        }
+
+        h6 {
+            font-size: 13px;
+            padding: 5px 0 15px 0;
+            color: rgb(50, 50, 50);
+        }
+
+        footer {
+            position: relative;
+            margin-top: 20px;
+            padding: 5px 0 3px 0;
+            background-color: rgb(125, 125, 125);
+            border-top: 2px solid rgb(49, 149, 180);
+        }
+
+        footer p {
+            color: lightgrey;
+            font-size: 7px;
+            font-weight: lighter;
+        }
+
+        .icons a{
+            font-size: 18px;
+            color: white;
+        }
+
+        i{
+            padding: 0 10px 10px 10px;
+        }
+
+        #phone{
+            position: absolute;
+            top: 10px;
+            right: 100px;
+            float: right;
+            color: white;
+            font-size: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-1 col-sm-1"></div>
+            <div class="logo col-md-1 col-sm-1 text-left">
+                <img id="logo" src="img/logo.png" alt="logo-webAssess" height="32px">
+            </div>
+            <div class="col-md-9 col-sm-9">
+                <ul class="nav justify-content-end text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-1 col-sm-1"></div>
+        </div>
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <img src="img/banner.png" alt="banner-image" width="100%">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="row main">
+        <div class="col-md-1 col-sm-1"></div>
+        <!-- left area -->
+        <div class="left col-md-6 col-sm-6">
+            <section id="about">
+                <h2>About Us</h2>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                    provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+                    fuga. Et harum quidem rerum facilis est et expedita distinctio.Nam libero tempore, cum soluta nobis
+                    est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis
+                    voluptas assumenda est, omnis dolor repellendus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <div class="row">
+                    <div class="col-5">
+                        <p>
+                            <span>Frisco Headquarters</span><br>
+                            <span>Software Development Office</span><br>
+                            <span>3001 Dallas Pkwy #500</span><br>
+                            <span>Frisco, TX 75034</span>
+                        </p>
+                    </div>
+                    <div class="col-7">
+                        <p>
+                            <span>Toll Free: (888)346-6334</span><br>
+                            <span>Local: (214)774-4246</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- right area -->
+        <div class="col-md-4 col-sm-4">
+            <aside id="blog">
+                <h2>Blog</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/do-more.png" alt="do more computer" width=80%>
+                        <a href="#">
+                            <h6>So you want to work at Code Authority?</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/become.png" alt="become the best" width=80%>
+                        <a href="#">
+                            <h6>Become the best developer you can be</h6>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <div class="col-md-1 col-sm-1"></div>
+    </div>
+
+    <footer>
+        <ul class="nav justify-content-center text-uppercase">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+
+        <div class="icons text-center">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </div>
+
+        <div class="text-center">
+            <p>Privacy Policy | Copyright 2019</p>
+        </div>
+
+        <div class="text-center" id="phone">
+            (214)-774-4262
+        </div>
+
+    </footer>
+</body>
+
+</html>
